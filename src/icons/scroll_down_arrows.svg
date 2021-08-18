@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="63px" viewBox="0 0 46 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Scroll Down Arrows</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0.500000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-697.000000, -835.000000)">
+            <g id="Scroll-Down-Arrows" transform="translate(697.000000, 835.000000)">
+                <g filter="url(#filter-1)" id="keyboard-arrow-down-24px">
+                    <g>
+                        <polygon id="Path" points="0 0 46 0 46 46 0 46"></polygon>
+                        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="14.7025 17 23.5 25.6531714 32.2975 17 35 19.6639676 23.5 31 12 19.6639676"></polygon>
+                    </g>
+                </g>
+                <g filter="url(#filter-2)" id="keyboard-arrow-down-24px">
+                    <g transform="translate(0.000000, 17.000000)">
+                        <polygon id="Path" points="0 0 46 0 46 46 0 46"></polygon>
+                        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="14.7025 17 23.5 25.6531714 32.2975 17 35 19.6639676 23.5 31 12 19.6639676"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
