@@ -62,6 +62,7 @@ nav ul {
 
 a {
 	text-decoration : none;
+	color: white;
 }
 
 a:visited {
@@ -135,7 +136,7 @@ footer p{
 	position  : absolute;
 	opacity   : 0.40;
 	left      : 50%;
-	bottom    : 50px;
+	bottom    : 1%;
 	transform : translate(-50%, -50%);
 }
 
