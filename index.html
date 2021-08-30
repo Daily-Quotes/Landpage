@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Quotes</title>
+    <meta name="description" content="If you want to get motivated or inspired on each new tab, Quotes Homepage will help you with it; our database contains more than 150 random quotes from a wide selection of authors.">
+    <title>Daily Quotes | Chrome Extension | Homepage</title>
     <link rel="stylesheet" href="style.css">
     <link
             rel="stylesheet"
@@ -22,6 +23,16 @@
 
         gtag('config', 'UA-188856045-3');
     </script>
+    <!-- Global site tag (gtag.js) - Google Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-736411046"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-736411046');
+    </script>
+
 </head>
 <body>
 
@@ -30,7 +41,7 @@
     <div>
     </div>
     <div>
-        <a class="float-right" href="https://github.com/Daily-Quotes/Web_Extension">
+        <a class="float-right" href="https://github.com/Daily-Quotes/Web_Extension" >
             <i class="float-right  fab fa-github fa-2x"></i>
         </a>
     </div>
@@ -49,9 +60,8 @@
                                                                          href="https://www.josenaimecv.com">Jose
                     Naime</a></aside>
             </div>
-            <img src="src/icons/window.svg" alt="Scroll Down Arrows">
+            <img src="src/icons/window.svg" alt="Quotes Homepage Window">
         </div>
-        </img>
         <a href="https://chrome.google.com/webstore/detail/quotes-homepage/abbakcklnbaccfjgpenaaimnkdgdighf">
             <button
                     class="dynamic-bg-color white-color flex-row flex-row-sm space-around align-items-center">
@@ -59,7 +69,6 @@
                 <p>Use In Chrome</p>
             </button>
         </a>
-
     </div>
     <img id="down-arrows" src="src/icons/scroll_down_arrows.svg" alt="Scroll Down Arrows" width="64" height="64">
     <div class="gradient-to-dark"></div>
@@ -83,22 +92,22 @@
                 <h3 class="text-center">Highlight Color</h3>
                 <ul id="colors-list">
                     <li>
-                        <button class="red-background-color" id="set-red-button" value="red"></button>
+                        <button class="red-background-color" name="redButton" id="set-red-button" value="red"></button>
                     </li>
                     <li>
-                        <button class="orange-background-color" id="set-orange-button" value="orange"></button>
+                        <button class="orange-background-color" name="orangeButton" id="set-orange-button" value="orange"></button>
                     </li>
                     <li>
-                        <button class="yellow-background-color" id="set-yellow-button" value="yellow"></button>
+                        <button class="yellow-background-color" name="yellowButton" id="set-yellow-button" value="yellow"></button>
                     </li>
                     <li>
-                        <button class="green-background-color" id="set-green-button" value="green"></button>
+                        <button class="green-background-color" name="greenButton" id="set-green-button" value="green"></button>
                     </li>
                     <li>
-                        <button class="blue-background-color active" id="set-blue-button" value="blue"></button>
+                        <button class="blue-background-color active" name="blueButton" id="set-blue-button" value="blue"></button>
                     </li>
                     <li>
-                        <button class="purple-background-color" id="set-purple-button" value="purple"></button>
+                        <button class="purple-background-color" name="purpleButton" id="set-purple-button" value="purple"></button>
                     </li>
                 </ul>
             </div>
@@ -142,7 +151,14 @@
         </div>
     </div>
 </footer>
-
+<!--
+             ___     ________
+            |\  \   |\   ___  \
+         ___\ \  \  \ \  \\ \  \
+        |\  \\_\  \  \ \  \\ \  \
+        \ \________\  \ \__\\ \__\
+         \|________|   \|__| \|__|
+-->
 <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
